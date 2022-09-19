@@ -10,14 +10,14 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th>course_id</th>
+      <th>prefix</th>
     </tr>
   </thead>
   <tbody>
     <?php
 $servername = "localhost";
-$username = "kevinche_user1";
+$username = "kevinche_User1";
 $password = "I<3oklahoma";
 $dbname = "kevinche_HW3DB";
 
@@ -28,7 +28,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT instructor_id, instructor_name from instructor";
+$sql = "SELECT *";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
