@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index1.php">Courses</a>
+          <a class="nav-link" href="https://hw3.kevinchen.oucreate.com/courses.php">Courses</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="instructor.php">Instructors</a>
