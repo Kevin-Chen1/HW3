@@ -28,7 +28,7 @@
           <a class="nav-link" href="student.php">Students</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="instructor-card.php">Instructor-card.php</a>
+          <a class="nav-link" href="instructor-card.php">Instructor-card (related records)</a>
         </li>
       </ul>
     </div>
